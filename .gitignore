@@ -9,6 +9,9 @@
 # production
 /build
 
+# GitHub Pages static site (pushed to master)
+/static
+
 # misc
 .DS_Store
 .env.local
