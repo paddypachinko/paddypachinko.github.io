@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './comp-logo-with-name.svg';
 import './App.css';
 
 function App() {
@@ -6,17 +6,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p />
+        <iframe 
+          src="https://complementcap.substack.com/embed" 
+          width="480" 
+          height="320" 
+          frameBorder="0" 
+          scrolling="no">
+        </iframe>
+            
       </header>
     </div>
   );
